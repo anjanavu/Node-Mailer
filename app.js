@@ -10,7 +10,7 @@ let mailTransporter = nodemailer.createTransport({
 });
 
 let mailDetails = {
-    from: process.env.EMAIL_USER,
+    from: 'vuanjana2000@gmail.com',
     to: 'anjanavu2000@gmail.com',
     subject: 'Test mail',
     text: 'Node.js testing mail'
